@@ -7,7 +7,7 @@ Run:
     npm install
     gulp watch
 
-The browse http://localhost:4321/
+Then, browse [http://localhost:4321/](http://localhost:4321/)
 
 
 ## Introduction
