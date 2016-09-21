@@ -41,7 +41,7 @@ config.taskConfiguration = {
         sourcePaths: ['./html/**/*.html']
     },
     lint: {
-        sourcePaths: ['./apps/**/*.js', './lib/js/**/*.js', './run/**/*.js']
+        sourcePaths: ['./apps/**/*.js', './3rdparty/js/**/*.js', './run/**/*.js']
     },
     images: {
         sourcePaths: ['./img/**/!(dir.txt)'],
@@ -199,8 +199,8 @@ config.taskConfiguration = {
         webpackSettings: {
             watch: false,
             entry: {
-                'polyfills': './lib/js/polyfills.js',
-                'vendor': './lib/js/vendor.js',
+                'polyfills': './3rdparty/js/polyfills.js',
+                'vendor': './3rdparty/js/vendor.js',
                 'quickstart': './apps/quickstart/js/index.js'
             },
             output: {
